@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Shadowez/emailmessenger-releases/main/update.schema.json",
+  "title": "EmailMessenger update metadata v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "packageName",
+    "versionCode",
+    "versionName",
+    "apk",
+    "releasePageUrl"
+  ],
+  "properties": {
+    "schemaVersion": {"const": 1, "type": "integer"},
+    "packageName": {"const": "com.emailmessenger", "type": "string"},
+    "versionCode": {"type": "integer", "minimum": 1},
+    "versionName": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "apk": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "sizeBytes", "sha256"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "pattern": "^https://github\\.com/Shadowez/emailmessenger-releases/releases/download/v[0-9]+\\.[0-9]+\\.[0-9]+/EmailMessenger-[0-9]+\\.[0-9]+\\.[0-9]+\\.apk$"
+        },
+        "sizeBytes": {"type": "integer", "minimum": 1, "maximum": 9007199254740991},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
+    "releasePageUrl": {
+      "type": "string",
+      "pattern": "^https://github\\.com/Shadowez/emailmessenger-releases/releases/tag/v[0-9]+\\.[0-9]+\\.[0-9]+$"
+    }
+  }
+}
