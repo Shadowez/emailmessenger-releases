@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "packageName": "com.emailmessenger",
+  "versionCode": 2,
+  "versionName": "1.0.1",
+  "apk": {
+    "url": "https://github.com/Shadowez/emailmessenger-releases/releases/download/v1.0.1/EmailMessenger-1.0.1.apk",
+    "sizeBytes": 68317804,
+    "sha256": "dc7223af2ac8725b5c7dafe52bbd8db40107f76cd5f82c812168ee4be9541026"
+  },
+  "releasePageUrl": "https://github.com/Shadowez/emailmessenger-releases/releases/tag/v1.0.1"
+}
