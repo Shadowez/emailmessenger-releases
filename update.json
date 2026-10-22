@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "packageName": "com.emailmessenger",
-  "versionCode": 16,
-  "versionName": "1.0.11",
+  "versionCode": 17,
+  "versionName": "1.0.12",
   "apk": {
-    "url": "https://github.com/Shadowez/emailmessenger-releases/releases/download/v1.0.11/EmailMessenger-1.0.11.apk",
-    "sizeBytes": 68506965,
-    "sha256": "d9224731de444aa25860907802e5359735912b60d58a3b21e1b9e1c2b74ea0d1"
+    "url": "https://github.com/Shadowez/emailmessenger-releases/releases/download/v1.0.12/EmailMessenger-1.0.12.apk",
+    "sizeBytes": 68802053,
+    "sha256": "fe55b0c8c3bfce553ac4231216e74194cdb4d978c88536ec874b6486728ab1af"
   },
-  "releasePageUrl": "https://github.com/Shadowez/emailmessenger-releases/releases/tag/v1.0.11"
+  "releasePageUrl": "https://github.com/Shadowez/emailmessenger-releases/releases/tag/v1.0.12"
 }
